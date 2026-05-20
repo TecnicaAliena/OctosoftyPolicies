@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peakspotter Privacy Policy</title>
+  <meta name="description" content="Privacy Policy di Peakspotter">
+  <style>
+    :root {
+      --bg: #f4f0e8;
+      --panel: rgba(255, 252, 245, 0.92);
+      --ink: #1d2a22;
+      --muted: #5d6b61;
+      --accent: #1f6b57;
+      --line: rgba(29, 42, 34, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(31, 107, 87, 0.18), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(177, 118, 52, 0.14), transparent 28%),
+        linear-gradient(180deg, #f7f3ea 0%, var(--bg) 100%);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 18px 72px;
+    }
+    .hero,
+    .section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: 0 18px 40px rgba(29, 42, 34, 0.08);
+      backdrop-filter: blur(8px);
+    }
+    .hero {
+      padding: 28px 24px;
+      margin-bottom: 18px;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      font-size: 0.82rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 700;
+      font-family: Arial, sans-serif;
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.15;
+    }
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.4rem);
+    }
+    h2 {
+      font-size: clamp(1.25rem, 3vw, 1.7rem);
+    }
+    p, li {
+      font-size: 1.04rem;
+    }
+    .lede {
+      color: var(--muted);
+      max-width: 64ch;
+      margin: 0;
+    }
+    .meta {
+      margin-top: 14px;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 0.95rem;
+    }
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+    .section {
+      padding: 22px 24px;
+    }
+    ul {
+      margin: 12px 0 0 20px;
+      padding: 0;
+    }
+    a {
+      color: var(--accent);
+    }
+    .note {
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: rgba(31, 107, 87, 0.08);
+      border: 1px solid rgba(31, 107, 87, 0.12);
+      margin-top: 14px;
+    }
+    .footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Peakspotter</p>
+      <h1>Privacy Policy</h1>
+      <p class="lede">
+        Questa pagina descrive come l'app Peakspotter utilizza fotocamera, posizione e connessione Internet.
+        Peakspotter e progettata per elaborare i dati principalmente sul dispositivo e non richiede la creazione di un account.
+      </p>
+      <p class="meta">Ultimo aggiornamento: 20 maggio 2026</p>
+    </section>
+
+    <div class="grid">
+      <section class="section">
+        <h2>Dati utilizzati dall'app</h2>
+        <p>Peakspotter puo utilizzare i seguenti dati e permessi per fornire le sue funzioni principali:</p>
+        <ul>
+          <li>Fotocamera, per mostrare l'inquadratura live e sovrapporre le etichette delle cime.</li>
+          <li>Posizione precisa o approssimativa, per stimare quali montagne possono essere visibili dal punto di osservazione.</li>
+          <li>Connessione Internet, per scaricare dati altimetrici necessari al profilo del terreno e alla stima della visibilita.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Come vengono usati i dati</h2>
+        <p>I dati di posizione e fotocamera sono usati per il funzionamento locale dell'app sul dispositivo dell'utente.</p>
+        <ul>
+          <li>La posizione serve a interrogare il database locale delle cime e a stimare orientamento, distanza e profilo del terreno.</li>
+          <li>La fotocamera viene usata solo per mostrare l'anteprima AR nell'app.</li>
+          <li>I dati altimetrici vengono richiesti via rete al servizio di tile elevation usato dall'app e possono essere temporaneamente memorizzati nella cache locale del dispositivo.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Raccolta e condivisione</h2>
+        <p>Peakspotter non richiede registrazione e non prevede funzioni social, messaggistica o profili utente.</p>
+        <ul>
+          <li>Non viene creato un account utente nell'app.</li>
+          <li>Non viene richiesto nome, email o numero di telefono per usare l'app.</li>
+          <li>Non e prevista la vendita di dati personali.</li>
+          <li>Non sono presenti, in questa versione del progetto, SDK pubblicitari o analytics di terze parti.</li>
+        </ul>
+        <div class="note">
+          Le richieste di rete necessarie al download dei dati altimetrici possono essere gestite dall'infrastruttura del fornitore del servizio di tile elevation e dai relativi sistemi di logging di rete.
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Conservazione dei dati</h2>
+        <p>
+          Peakspotter memorizza localmente solo i dati tecnici necessari al funzionamento, come cache temporanee dei tile altimetrici e file interni dell'app.
+          Questi dati restano sul dispositivo e possono essere rimossi cancellando i dati dell'app o disinstallandola.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Servizi esterni utilizzati</h2>
+        <p>Per il profilo del terreno, l'app effettua richieste HTTPS a un servizio pubblico di elevation tiles in formato Terrarium:</p>
+        <ul>
+          <li><code>https://s3.amazonaws.com/elevation-tiles-prod/terrarium/...</code></li>
+        </ul>
+        <p>
+          L'uso di tali servizi puo comportare il trattamento di dati tecnici di rete, come indirizzo IP, secondo le policy del relativo fornitore.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Diritti e controllo dell'utente</h2>
+        <ul>
+          <li>Puoi negare i permessi di fotocamera o posizione, ma alcune funzioni dell'app potrebbero non essere disponibili.</li>
+          <li>Puoi rimuovere i dati locali cancellando i dati dell'app dal sistema operativo o disinstallando l'app.</li>
+          <li>Puoi interrompere l'uso dei servizi di rete non utilizzando le funzioni che richiedono il profilo del terreno.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Contatti</h2>
+        <p>
+          Per richieste relative alla privacy o ai dati, usa l'indirizzo email di contatto pubblicato nella scheda Google Play dell'app Peakspotter
+          oppure nel repository GitHub associato al progetto.
+        </p>
+      </section>
+    </div>
+
+    <p class="footer">
+      Questa policy puo essere aggiornata in futuro per riflettere modifiche funzionali o requisiti di pubblicazione.
+    </p>
+  </main>
+</body>
+</html>
